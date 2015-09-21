@@ -1,0 +1,21 @@
+{
+  "ids": {
+    "rssfeed": 13
+  },
+  "models": {
+    "rssfeed": {
+      "1": "{\"title\":\"Phoronix\",\"url\":\"https://www.phoronix.com/rss.php\",\"id\":1}",
+      "2": "{\"title\":\"Hackernews\",\"url\":\"https://news.ycombinator.com/rss\",\"id\":2}",
+      "3": "{\"title\":\"TechCrunch\",\"url\":\"http://feeds.feedburner.com/TechCrunch/\",\"id\":3}",
+      "4": "{\"title\":\"Arstechnica : I.T\",\"url\":\"http://feeds.arstechnica.com/arstechnica/technology-lab\",\"id\":4}",
+      "5": "{\"title\":\"The Next Web\",\"url\":\"http://feeds2.feedburner.com/thenextweb\",\"id\":5}",
+      "6": "{\"title\":\"Coding horror\",\"url\":\"http://feeds.feedburner.com/codinghorror?format=xml\",\"id\":6}",
+      "7": "{\"title\":\"The Verge\",\"url\":\"http://www.theverge.com/rss/frontpage\",\"id\":7}",
+      "8": "{\"title\":\"Google Developer Blog\",\"url\":\"http://feeds.feedburner.com/GDBcode?format=xml\",\"id\":8}",
+      "9": "{\"title\":\"Programmable Web\",\"url\":\"http://feeds.feedburner.com/ProgrammableWeb\",\"id\":9}",
+      "10": "{\"title\":\"Javascript Weekly\",\"url\":\"http://javascriptweekly.com/rss/13m1719g\",\"id\":10}",
+      "11": "{\"title\":\"StackOverflow | Hot\",\"url\":\"http://stackexchange.com/feeds/questions\",\"id\":11}",
+      "12": "{\"title\":\"Mozilla Hacks\",\"url\":\"https://hacks.mozilla.org/feed/\",\"id\":12}"
+    }
+  }
+}

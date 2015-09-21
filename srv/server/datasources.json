@@ -1,0 +1,11 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "appDb": {
+    "name": "appDb",
+    "connector": "memory",
+    "file": "db/db.json"
+  }
+}

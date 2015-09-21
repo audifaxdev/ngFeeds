@@ -1,0 +1,144 @@
+/* app css stylesheet */
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+
+body {
+  background: black;
+}
+
+a {
+  font-family: 'Source Serif Pro';
+}
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+.accent {
+  color: #6bc62e;
+}
+
+a.accent:hover {
+  color: #B5E397;
+  text-decoration: underline;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+h1 { 
+  font-family: 'Playfair Display', serif;  
+  margin: 10px 0 0 0;
+}
+
+.border-decoration {
+  border: 1px solid white;
+  box-shadow: 0 0 10px 0 white !important;
+  border-radius: 15px;
+}
+
+#rssitem-list .divider {
+  border-top: 1px solid gray;
+  height: 0px;
+  margin: 5px 0 5px 0;
+}
+
+.rssitem {
+  background: #1A1110;
+  color: #e6e6e6;
+}
+
+.rsscontent {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px !important;
+  text-align: justify;
+  text-justify: inter-word; 
+}
+
+.marginTop{
+  margin-top: 20px !important;
+}
+
+.marginBottom{
+  margin-bottom: 20px !important;
+}
+
+#progressbar>div.md-container.md-ready {
+  top: 0 !important;
+}
+
+#rssitem-list h1{
+  padding: 8px 0 0 0;
+}
+#rssitem-list>div {
+  padding: 0 16px 0 16px;
+}
+
+.rsscontent img, 
+.rsscontent video, 
+.rsscontent iframe {
+  max-width: 100% !important;
+}
+
+.rsscontent iframe, 
+.rsscontent a {   
+  margin: 10px 0 10px 0 !important;
+}
+
+.rsscontent iframe, .rsscontent pre {
+  margin: auto !important;
+  box-shadow: 0 0 10px 2px gray !important;
+  border-radius: 7px;
+  background: #202020;
+}
+
+.rsscontent a{
+  color: #66d8ef;
+  text-decoration: none;
+}
+
+.rsscontent a:hover {
+  color: #B3ECF7;
+  text-decoration: underline;
+}
+
+.rsscontent table {
+  max-width: 100% !important;
+  table-layout: fixed !important;
+}
+
+.rsscontent iframe {
+  overflow: hidden !important;
+}
+
+.rsscontent pre {
+  max-width: 100% !important;
+  width:100%;
+  overflow: scroll;
+}
