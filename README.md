@@ -11,4 +11,4 @@ cd app && npm i
 cd srv && node .
 
 #DEMO
-http://52.64.182.49/demos/ngFeeds/index.html
+http://audifaxdev.net/demos/ngFeeds/index.html
