@@ -10,4 +10,5 @@ cd app && npm i
 #Launch server
 cd srv && node .
 
-DEMO available at http://52.64.182.49/demos/ngFeeds/index.html
+#DEMO
+http://52.64.182.49/demos/ngFeeds/index.html
