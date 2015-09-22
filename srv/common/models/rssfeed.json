@@ -21,6 +21,20 @@
   },
   "validations": [],
   "relations": {},
-  "acls": [],
+  "acls": [
+		{
+			"permission": "DENY",
+			"principalType": "ROLE",
+			"principalId": "$everyone",
+			"property": [
+				"create",
+				"upsert",
+				"deleteById",
+				"prototype.updateAttributes",
+				"updateAll",
+				"createChangeStream"
+			]
+		}
+  ],
   "methods": {}
 }
