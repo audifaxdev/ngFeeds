@@ -2,6 +2,7 @@ var loopback = require('loopback');
 var boot = require('loopback-boot');
 
 var app = module.exports = loopback();
+app.set('trust proxy', 'loopback');
 
 app.start = function() {
   // start the web server
